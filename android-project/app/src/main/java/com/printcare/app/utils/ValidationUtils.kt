@@ -1,6 +1,10 @@
 package com.printcare.app.utils
 
 import android.util.Patterns
+import java.text.ParsePosition
+import java.text.SimpleDateFormat
+import java.util.Calendar
+import java.util.Locale
 
 /**
  * Pure validation helper functions for authentication and customer registration forms.
@@ -67,9 +71,24 @@ object ValidationUtils {
 
     fun validateDob(dob: String): String? {
         val trimmed = dob.trim()
+        val dateFormat = SimpleDateFormat("dd/MM/yyyy", Locale.US).apply {
+            isLenient = false
+        }
+        val parsePosition = ParsePosition(0)
+        val date = dateFormat.parse(trimmed, parsePosition)
+        val today = Calendar.getInstance().apply {
+            set(Calendar.HOUR_OF_DAY, 0)
+            set(Calendar.MINUTE, 0)
+            set(Calendar.SECOND, 0)
+            set(Calendar.MILLISECOND, 0)
+        }.time
+
         return when {
             trimmed.isEmpty() -> "Date of birth is required"
-            !DOB_REGEX.matches(trimmed) -> "Select a valid date (DD/MM/YYYY)"
+            !DOB_REGEX.matches(trimmed) ||
+                date == null ||
+                parsePosition.index != trimmed.length ||
+                date.after(today) -> "Select a valid date (DD/MM/YYYY)"
             else -> null
         }
     }
