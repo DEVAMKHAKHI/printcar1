@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">PrintCare</string>
+    <string name="app_name">PrintShop Customer Manager</string>
     <string name="app_subtitle">Printing Shop Customer Management</string>
 
     <!-- Login & Sign Up -->

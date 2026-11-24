@@ -1,0 +1,724 @@
+%PDF-1.4
+% PrintShop Customer Manager Report
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R] /Count 6 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 3924 >>
+stream
+BT
+/F1 9 Tf
+50 792 Td
+12 TL
+/F1 9 Tf
+(PRINTSHOP CUSTOMER MANAGER) Tj T*
+/F1 9 Tf
+(Printing Shop Customer Management Android Application) Tj T*
+/F1 9 Tf
+(ACADEMIC PROJECT REPORT) Tj T*
+/F1 9 Tf
+(Submitted by: [Student Name] | [Roll Number] | 24 November 2026) Tj T*
+/F1 9 Tf
+(Institution: [Institution Name] | Project Guide: [Project Guide Name]) Tj T*
+/F1 9 Tf
+() Tj T*
+/F1 9 Tf
+(1. Cover Page) Tj T*
+/F1 9 Tf
+(Project: PrintShop Customer Manager) Tj T*
+/F1 9 Tf
+(Programme: [Department / Programme] | Institution: [Institution Name]) Tj T*
+/F1 9 Tf
+(Student: [Student Name] | Roll number: [Roll Number]) Tj T*
+/F1 9 Tf
+(Guide: [Project Guide Name] | Submission date: 24 November 2026) Tj T*
+/F1 9 Tf
+() Tj T*
+/F1 9 Tf
+(2. Certificate \(Placeholder\)) Tj T*
+/F1 9 Tf
+(This certifies that [Student Name], [Roll Number], completed the project titled PrintShop) Tj T*
+/F1 9 Tf
+(Customer Manager under the guidance of [Project Guide Name], subject to institutional review.) Tj T*
+/F1 9 Tf
+(Project Guide: ____________________  Head of Department: ____________________) Tj T*
+/F1 9 Tf
+(Date: ____________________           Institution Seal: ____________________) Tj T*
+/F1 9 Tf
+() Tj T*
+/F1 9 Tf
+() Tj T*
+/F1 9 Tf
+(3. Acknowledgement) Tj T*
+/F1 9 Tf
+(------------------) Tj T*
+/F1 9 Tf
+(I would like to express my gratitude to my project guide, faculty, institution, and everyone who) Tj T*
+/F1 9 Tf
+(supported the planning and development of this project. Their feedback helped shape the) Tj T*
+/F1 9 Tf
+(requirements and the application design.) Tj T*
+/F1 9 Tf
+(Student: [Student Name]    Project Guide: [Guide Name]) Tj T*
+/F1 9 Tf
+() Tj T*
+/F1 9 Tf
+(4. Abstract) Tj T*
+/F1 9 Tf
+(-----------) Tj T*
+/F1 9 Tf
+(PrintShop Customer Manager is a native Android application intended to help a printing shop) Tj T*
+/F1 9 Tf
+(maintain an organized customer directory. It is implemented in Kotlin with Jetpack Compose and) Tj T*
+/F1 9 Tf
+(Material 3, following an MVVM-oriented structure. Firebase Authentication provides) Tj T*
+/F1 9 Tf
+(email/password staff sign-in, and Cloud Firestore stores customer records.) Tj T*
+/F1 9 Tf
+(The application supports registration, live customer listing, search by name/phone/email,) Tj T*
+/F1 9 Tf
+(profile details, editing, deletion with confirmation, password reset, and a repeat-safe action) Tj T*
+/F1 9 Tf
+(to add ten synthetic demonstration customers. Form validation covers required fields, email,) Tj T*
+/F1 9 Tf
+(Indian mobile number, address length, valid past dates, and leap years. Firestore rules require) Tj T*
+/F1 9 Tf
+(authentication and validate document structure.) Tj T*
+/F1 9 Tf
+(Firebase credentials and an Android emulator were not available during report generation.) Tj T*
+/F1 9 Tf
+(Consequently, cloud integration and device screenshots are documented as setup/verification) Tj T*
+/F1 9 Tf
+(tasks rather than claimed as tested results.) Tj T*
+/F1 9 Tf
+() Tj T*
+/F1 9 Tf
+(5. Introduction) Tj T*
+/F1 9 Tf
+(---------------) Tj T*
+/F1 9 Tf
+(Printing shops interact with customers over recurring orders, quotations, artwork reviews, and) Tj T*
+/F1 9 Tf
+(delivery arrangements. Customer contact information kept in notebooks or scattered spreadsheets) Tj T*
+/F1 9 Tf
+(is difficult to search, update, and back up.) Tj T*
+/F1 9 Tf
+(This project provides a small mobile customer-management tool. A staff member authenticates,) Tj T*
+/F1 9 Tf
+(records a customer, searches and reviews the directory, and corrects or removes outdated) Tj T*
+/F1 9 Tf
+(entries. Firebase provides a managed identity service and cloud database, while the Android) Tj T*
+/F1 9 Tf
+(client provides the shop-floor interface.) Tj T*
+/F1 9 Tf
+() Tj T*
+/F1 9 Tf
+(6. Problem Statement) Tj T*
+/F1 9 Tf
+(--------------------) Tj T*
+/F1 9 Tf
+(Manual customer records can be duplicated, become outdated, and take time to search. They can) Tj T*
+ET
+BT /F1 8 Tf 50 28 Td
+(PrintShop Customer Manager  |  Page 1) Tj
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 3984 >>
+stream
+BT
+/F1 9 Tf
+50 792 Td
+12 TL
+/F1 9 Tf
+(also be exposed when access is not controlled. The project addresses these operational problems) Tj T*
+/F1 9 Tf
+(by providing a searchable digital directory with authenticated cloud access and validated forms.) Tj T*
+/F1 9 Tf
+() Tj T*
+/F1 9 Tf
+(7. Objectives) Tj T*
+/F1 9 Tf
+(-------------) Tj T*
+/F1 9 Tf
+(- Develop a native Kotlin Android application using Jetpack Compose and Material 3.) Tj T*
+/F1 9 Tf
+(- Implement a maintainable separation between UI, screen/navigation, ViewModel, model, and) Tj T*
+/F1 9 Tf
+(Firebase repository layers.) Tj T*
+/F1 9 Tf
+(- Provide staff account registration, sign-in, sign-out, and password-reset flows.) Tj T*
+/F1 9 Tf
+(- Store customer profiles in Firestore with live list updates and required authentication.) Tj T*
+/F1 9 Tf
+(- Support validated create, search, read, edit, and confirmed-delete workflows.) Tj T*
+/F1 9 Tf
+(- Include repeat-safe synthetic seed records, automated validation tests, security rules, setup) Tj T*
+/F1 9 Tf
+(instructions, and an academic report.) Tj T*
+/F1 9 Tf
+() Tj T*
+/F1 9 Tf
+(8. Scope of the Project) Tj T*
+/F1 9 Tf
+(-----------------------) Tj T*
+/F1 9 Tf
+(The application manages customer contact/profile data only. It does not manage print-job) Tj T*
+/F1 9 Tf
+(estimates, artwork files, inventory, billing, payments, marketing, or multiple shop branches. It) Tj T*
+/F1 9 Tf
+(assumes staff accounts have already been provisioned and are trusted to access the customer) Tj T*
+/F1 9 Tf
+(collection.) Tj T*
+/F1 9 Tf
+(The Android application is a Firebase client. A Firebase project, Authentication provider,) Tj T*
+/F1 9 Tf
+(Firestore database, deployed rules, and app-specific google-services.json must be supplied by) Tj T*
+/F1 9 Tf
+(the deployment owner.) Tj T*
+/F1 9 Tf
+() Tj T*
+/F1 9 Tf
+(9. Existing System) Tj T*
+/F1 9 Tf
+(------------------) Tj T*
+/F1 9 Tf
+(A typical small-shop process records names and contact information in paper registers or) Tj T*
+/F1 9 Tf
+(personal spreadsheets. Such records are often device- or person-specific, offer limited) Tj T*
+/F1 9 Tf
+(validation, and do not provide consistent access control, live synchronization, or reliable) Tj T*
+/F1 9 Tf
+(record-change workflows.) Tj T*
+/F1 9 Tf
+() Tj T*
+/F1 9 Tf
+(10. Proposed System) Tj T*
+/F1 9 Tf
+(-------------------) Tj T*
+/F1 9 Tf
+(The proposed system is an Android client backed by Firebase Authentication and Cloud Firestore.) Tj T*
+/F1 9 Tf
+(Authenticated staff can create, browse, search, inspect, edit, and delete records. Input checks) Tj T*
+/F1 9 Tf
+(prevent common mistakes before writes. A Firestore snapshot listener keeps the directory and) Tj T*
+/F1 9 Tf
+(dashboard count current while the app is open.) Tj T*
+/F1 9 Tf
+(The implementation is intentionally a small single-module app. MVVM separates observable UI) Tj T*
+/F1 9 Tf
+(state and actions from screens, and the repository isolates Firebase operations from the Compose) Tj T*
+/F1 9 Tf
+(UI.) Tj T*
+/F1 9 Tf
+() Tj T*
+/F1 9 Tf
+(11. Software and Hardware Requirements) Tj T*
+/F1 9 Tf
+(--------------------------------------) Tj T*
+/F1 9 Tf
+(Development machine: Windows, macOS, or Linux; 8 GB RAM recommended for Android Studio and an) Tj T*
+/F1 9 Tf
+(emulator.) Tj T*
+/F1 9 Tf
+(Development software: Android Studio, Java 17, Android SDK Platform 35, Gradle compatible with) Tj T*
+/F1 9 Tf
+(Android Gradle Plugin 8.7.2, and Firebase CLI for rules deployment.) Tj T*
+/F1 9 Tf
+(Run target: Android API 26 or newer emulator/device, network access, and a configured Firebase) Tj T*
+/F1 9 Tf
+(project.) Tj T*
+/F1 9 Tf
+(Services: Firebase Authentication with Email/Password enabled and Cloud Firestore with the) Tj T*
+/F1 9 Tf
+(included rules deployed.) Tj T*
+/F1 9 Tf
+(Category | Requirement) Tj T*
+/F1 9 Tf
+(Development host | Windows/macOS/Linux; 8 GB RAM recommended) Tj T*
+/F1 9 Tf
+(Toolchain | Android Studio, Java 17, Android SDK Platform 35) Tj T*
+ET
+BT /F1 8 Tf 50 28 Td
+(PrintShop Customer Manager  |  Page 2) Tj
+ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 10 0 R >>
+endobj
+10 0 obj
+<< /Length 3572 >>
+stream
+BT
+/F1 9 Tf
+50 792 Td
+12 TL
+/F1 9 Tf
+(Target | Android API 26+ emulator or device) Tj T*
+/F1 9 Tf
+(Backend | Firebase Authentication and Cloud Firestore) Tj T*
+/F1 9 Tf
+() Tj T*
+/F1 9 Tf
+(12. Technologies Used) Tj T*
+/F1 9 Tf
+(---------------------) Tj T*
+/F1 9 Tf
+(Kotlin 2.0.21; Android Gradle Plugin 8.7.2; Jetpack Compose and Material 3; Navigation Compose;) Tj T*
+/F1 9 Tf
+(AndroidX lifecycle ViewModel; Firebase Authentication; Cloud Firestore; Kotlin coroutines and) Tj T*
+/F1 9 Tf
+(Google Play Services Task await integration; JUnit 4 for local unit tests.) Tj T*
+/F1 9 Tf
+() Tj T*
+/F1 9 Tf
+(13. System Architecture) Tj T*
+/F1 9 Tf
+(-----------------------) Tj T*
+/F1 9 Tf
+(The single-activity Compose UI observes a StateFlow from MainViewModel. The ViewModel performs) Tj T*
+/F1 9 Tf
+(user actions in a coroutine and calls FirebaseRepository. FirebaseProvider exposes the) Tj T*
+/F1 9 Tf
+(configured Firebase Auth and Firestore instances. Customer is the application model. Navigation) Tj T*
+/F1 9 Tf
+(Compose owns the login, sign-up, dashboard, list, add, detail, and edit destinations.) Tj T*
+/F1 9 Tf
+(Architecture diagram \(logical flow\):) Tj T*
+/F1 9 Tf
+(Staff -> Compose screens -> Navigation Compose) Tj T*
+/F1 9 Tf
+(                         | state/actions) Tj T*
+/F1 9 Tf
+(                         v) Tj T*
+/F1 9 Tf
+(                    MainViewModel) Tj T*
+/F1 9 Tf
+(                         | suspend repository operations) Tj T*
+/F1 9 Tf
+(                         v) Tj T*
+/F1 9 Tf
+(                  FirebaseRepository) Tj T*
+/F1 9 Tf
+(                    /           \\) Tj T*
+/F1 9 Tf
+(          Firebase Auth       Cloud Firestore) Tj T*
+/F1 9 Tf
+(                                   |) Tj T*
+/F1 9 Tf
+(                          customers collection) Tj T*
+/F1 9 Tf
+() Tj T*
+/F1 9 Tf
+(14. Application Flowchart) Tj T*
+/F1 9 Tf
+(-------------------------) Tj T*
+/F2 7 Tf
+(                         +----------------+) Tj T*
+/F1 9 Tf
+(                         |   Launch app   |) Tj T*
+/F2 7 Tf
+(                         +-------+--------+) Tj T*
+/F1 9 Tf
+(                                 |) Tj T*
+/F2 7 Tf
+(                         +-------v--------+) Tj T*
+/F1 9 Tf
+(                         | Auth session?  |) Tj T*
+/F2 7 Tf
+(                         +---+--------+---+) Tj T*
+/F1 9 Tf
+(                             |        |) Tj T*
+/F1 9 Tf
+(                           No|        |Yes) Tj T*
+/F1 9 Tf
+(               +-------------v--+  +--v-----------+) Tj T*
+/F1 9 Tf
+(               | Login / Sign-up|  |  Dashboard   |) Tj T*
+/F1 9 Tf
+(               +------+---------+  +--+-----------+) Tj T*
+/F1 9 Tf
+(                      |               |) Tj T*
+/F1 9 Tf
+(            +---------v------+    +---v----------------+) Tj T*
+/F1 9 Tf
+(            | Firebase Auth  |    | Add / View records |) Tj T*
+/F1 9 Tf
+(            +----------------+    +--+--------------+--+) Tj T*
+/F1 9 Tf
+(                                     |              |) Tj T*
+/F1 9 Tf
+(                                +----v----+   +-----v------+) Tj T*
+/F1 9 Tf
+(                                | Validate|   | Search and |) Tj T*
+/F1 9 Tf
+(                                | and save|   | inspect    |) Tj T*
+/F1 9 Tf
+(                                +----+----+   +-----+------+) Tj T*
+/F1 9 Tf
+(                                     |              |) Tj T*
+/F1 9 Tf
+(                                     +------v-------+) Tj T*
+/F1 9 Tf
+(                                     |  Firestore   |) Tj T*
+ET
+BT /F1 8 Tf 50 28 Td
+(PrintShop Customer Manager  |  Page 3) Tj
+ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 12 0 R >>
+endobj
+12 0 obj
+<< /Length 3826 >>
+stream
+BT
+/F1 9 Tf
+50 792 Td
+12 TL
+/F1 9 Tf
+(                                     +--------------+) Tj T*
+/F1 9 Tf
+() Tj T*
+/F1 9 Tf
+(15. Use Case Diagram) Tj T*
+/F1 9 Tf
+(--------------------) Tj T*
+/F1 9 Tf
+(Actor: Authenticated shop staff) Tj T*
+/F1 9 Tf
+() Tj T*
+/F2 7 Tf
+(                    +----------------------------------------------+) Tj T*
+/F1 9 Tf
+(                    |       PrintShop Customer Manager             |) Tj T*
+/F2 7 Tf
+(Staff ------------>| Sign in / create staff account                |) Tj T*
+/F2 7 Tf
+(Staff ------------>| Reset password / sign out                    |) Tj T*
+/F2 7 Tf
+(Staff ------------>| View dashboard and customer count             |) Tj T*
+/F2 7 Tf
+(Staff ------------>| Add customer / validate profile               |) Tj T*
+/F2 7 Tf
+(Staff ------------>| Search and view customer details              |) Tj T*
+/F2 7 Tf
+(Staff ------------>| Edit customer                                 |) Tj T*
+/F2 7 Tf
+(Staff ------------>| Confirm and delete customer                   |) Tj T*
+/F2 7 Tf
+(Staff ------------>| Seed fictional demo customers                 |) Tj T*
+/F2 7 Tf
+(                    +----------------------------------------------+) Tj T*
+/F1 9 Tf
+() Tj T*
+/F1 9 Tf
+(All customer-data use cases require a Firebase-authenticated session. The current rules treat) Tj T*
+/F1 9 Tf
+(all authenticated accounts as having the same customer-data permissions.) Tj T*
+/F1 9 Tf
+() Tj T*
+/F1 9 Tf
+(16. Database Design) Tj T*
+/F1 9 Tf
+(-------------------) Tj T*
+/F1 9 Tf
+(Firestore uses a customers collection and one document per customer. Document IDs are) Tj T*
+/F1 9 Tf
+(auto-generated for normal records; the demo seeder uses stable IDs so repeated seeding does not) Tj T*
+/F1 9 Tf
+(duplicate its records.) Tj T*
+/F1 9 Tf
+(Field | Type | Purpose) Tj T*
+/F1 9 Tf
+(customerId | String | Firestore document ID) Tj T*
+/F1 9 Tf
+(fullName | String | Customer name) Tj T*
+/F1 9 Tf
+(phoneNumber | String | 10-digit Indian mobile) Tj T*
+/F1 9 Tf
+(dateOfBirth | String | DD/MM/YYYY) Tj T*
+/F1 9 Tf
+(email | String | Customer email) Tj T*
+/F1 9 Tf
+(address | String | Postal/contact address) Tj T*
+/F1 9 Tf
+(createdAt | Timestamp | Server registration time) Tj T*
+/F1 9 Tf
+() Tj T*
+/F1 9 Tf
+(17. Firebase Integration) Tj T*
+/F1 9 Tf
+(------------------------) Tj T*
+/F1 9 Tf
+(Firebase Authentication handles email/password registration, login, reset email, and session) Tj T*
+/F1 9 Tf
+(persistence. An auth-state listener drives the application route. Cloud Firestore stores) Tj T*
+/F1 9 Tf
+(customer documents and publishes updates through a snapshot listener ordered by createdAt) Tj T*
+/F1 9 Tf
+(descending.) Tj T*
+/F1 9 Tf
+(For a new environment, create a Firebase project, register package com.printcare.app, add) Tj T*
+/F1 9 Tf
+(app/google-services.json locally, enable Email/Password, create Firestore, and deploy) Tj T*
+/F1 9 Tf
+(firestore.rules with the Firebase CLI. The Google Services Gradle plugin is applied only when) Tj T*
+/F1 9 Tf
+(the configuration file is present. No Firebase project credentials are included in this) Tj T*
+/F1 9 Tf
+(deliverable.) Tj T*
+/F1 9 Tf
+(Older PrintCare records with name/phone/dob fields are read compatibly. Editing an older record) Tj T*
+/F1 9 Tf
+(replaces it with the current schema and preserves its createdAt timestamp. Documents without a) Tj T*
+/F1 9 Tf
+(timestamp cannot be edited until they are repaired.) Tj T*
+/F1 9 Tf
+() Tj T*
+/F1 9 Tf
+(18. Screen-by-Screen Description) Tj T*
+/F1 9 Tf
+(--------------------------------) Tj T*
+/F1 9 Tf
+(Login: email, password with visibility toggle, create-account navigation, password-reset dialog,) Tj T*
+/F1 9 Tf
+(validation, and Firebase setup notice. [Screenshot placeholder: capture Login on emulator.]) Tj T*
+ET
+BT /F1 8 Tf 50 28 Td
+(PrintShop Customer Manager  |  Page 4) Tj
+ET
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 14 0 R >>
+endobj
+14 0 obj
+<< /Length 4573 >>
+stream
+BT
+/F1 9 Tf
+50 792 Td
+12 TL
+/F1 9 Tf
+(Sign-up: staff name, email, password, confirmation, validation, and account creation.) Tj T*
+/F1 9 Tf
+([Screenshot placeholder: capture Sign-up on emulator.]) Tj T*
+/F1 9 Tf
+(Dashboard: staff greeting, live customer count, add/view shortcuts, demo-seed action, and) Tj T*
+/F1 9 Tf
+(sign-out confirmation. [Screenshot placeholder: capture Dashboard on emulator.]) Tj T*
+/F1 9 Tf
+(Customer list: live customer cards, search by name/phone/email, loading, empty, and no-results) Tj T*
+/F1 9 Tf
+(states. [Screenshot placeholder: capture Customer list on emulator.]) Tj T*
+/F1 9 Tf
+(Add/Edit customer: name, phone, date picker, email, address, field errors, save progress, and) Tj T*
+/F1 9 Tf
+(cancel. [Screenshot placeholder: capture Customer form on emulator.]) Tj T*
+/F1 9 Tf
+(Customer details: identifier, phone, DOB, email, address, registration timestamp, edit, and) Tj T*
+/F1 9 Tf
+(confirmed delete. [Screenshot placeholder: capture Customer details on emulator.]) Tj T*
+/F1 9 Tf
+(Actual emulator screenshots were not available while this report was generated because Android) Tj T*
+/F1 9 Tf
+(SDK/emulator and Firebase configuration were not present.) Tj T*
+/F1 9 Tf
+() Tj T*
+/F1 9 Tf
+(19. Testing and Test Cases) Tj T*
+/F1 9 Tf
+(--------------------------) Tj T*
+/F1 9 Tf
+(Local unit tests are included for validation helpers. End-to-end cases require Android) Tj T*
+/F1 9 Tf
+(Studio/SDK, a configured Firebase project, and an emulator/device. No integration test is) Tj T*
+/F1 9 Tf
+(claimed as executed.) Tj T*
+/F1 9 Tf
+(Test case | Expected result | Status in this environment) Tj T*
+/F1 9 Tf
+(Valid/invalid email, phone, name, address | Correct validation result | JUnit tests added; not run) Tj T*
+/F1 9 Tf
+(Leap day and impossible DOB | Accept real date; reject impossible date | JUnit tests added; not run) Tj T*
+/F1 9 Tf
+(Future DOB | Reject future date | JUnit test added; not run) Tj T*
+/F1 9 Tf
+(Login/register/password reset/logout | Firebase Auth success and errors | Not run; Firebase not configured) Tj T*
+/F1 9 Tf
+(Customer CRUD, search, seed | Records sync and display correctly | Not run; Firebase not configured) Tj T*
+/F1 9 Tf
+(Navigation/network failure | Correct route and clear retryable error | Not run on emulator) Tj T*
+/F1 9 Tf
+(Firestore rules | Unauthenticated requests denied | Rules supplied; emulator test not run) Tj T*
+/F1 9 Tf
+(Android build and APK | Debug APK builds and installs | Not run; Android SDK/Gradle unavailable) Tj T*
+/F1 9 Tf
+() Tj T*
+/F1 9 Tf
+(20. Results) Tj T*
+/F1 9 Tf
+(-----------) Tj T*
+/F1 9 Tf
+(Implemented source includes the Compose screens and navigation, MVVM state/actions, Firebase) Tj T*
+/F1 9 Tf
+(Auth/Firestore repository, customer CRUD and live search, synthetic demo seeding, validation) Tj T*
+/F1 9 Tf
+(unit tests, deployment rules, setup README, and this report.) Tj T*
+/F1 9 Tf
+(Verification limitation: this environment did not contain Gradle, Android SDK, an emulator, or) Tj T*
+/F1 9 Tf
+(google-services.json. Therefore, Gradle compilation, unit-test execution, Firebase network) Tj T*
+/F1 9 Tf
+(operations, APK installation, and screenshots remain unverified. Run the checklist in README.md) Tj T*
+/F1 9 Tf
+(before academic submission or production use.) Tj T*
+/F1 9 Tf
+() Tj T*
+/F1 9 Tf
+(21. Limitations) Tj T*
+/F1 9 Tf
+(---------------) Tj T*
+/F1 9 Tf
+(All authenticated accounts share customer read/write/delete permissions; public sign-up makes) Tj T*
+/F1 9 Tf
+(this too permissive for production. Firebase setup and seed writes require connectivity. Client) Tj T*
+/F1 9 Tf
+(date validation cannot be treated as a security control, and Firestore rules only validate) Tj T*
+/F1 9 Tf
+(date-string shape. No offline conflict-resolution workflow, audit log, staff roles, print-job) Tj T*
+/F1 9 Tf
+(data, or actual emulator screenshot is included. This environment could not run a build or) Tj T*
+/F1 9 Tf
+(integration test.) Tj T*
+/F1 9 Tf
+() Tj T*
+/F1 9 Tf
+(22. Future Enhancements) Tj T*
+/F1 9 Tf
+(-----------------------) Tj T*
+/F1 9 Tf
+(Add trusted staff onboarding and role-based custom claims, per-shop tenant isolation, audit) Tj T*
+/F1 9 Tf
+(history, phone/email verification, profile import/export, print-order and quotation workflows,) Tj T*
+/F1 9 Tf
+(pagination, offline synchronization UX, stronger server-side date representation, automated) Tj T*
+/F1 9 Tf
+(Firestore emulator rule tests, CI build/test jobs, and automated emulator screenshot capture.) Tj T*
+/F1 9 Tf
+() Tj T*
+ET
+BT /F1 8 Tf 50 28 Td
+(PrintShop Customer Manager  |  Page 5) Tj
+ET
+endstream
+endobj
+15 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 16 0 R >>
+endobj
+16 0 obj
+<< /Length 1890 >>
+stream
+BT
+/F1 9 Tf
+50 792 Td
+12 TL
+/F1 9 Tf
+(23. Conclusion) Tj T*
+/F1 9 Tf
+(--------------) Tj T*
+/F1 9 Tf
+(PrintShop Customer Manager provides a structured foundation for managing a printing shop's) Tj T*
+/F1 9 Tf
+(customer directory. Its Compose UI, observable ViewModel state, Firebase repository, input) Tj T*
+/F1 9 Tf
+(validation, and authenticated Firestore rules implement the requested core workflows. A Firebase) Tj T*
+/F1 9 Tf
+(owner must configure credentials and access policies and run the Android build and device checks) Tj T*
+/F1 9 Tf
+(before the application can be considered a verified deployment.) Tj T*
+/F1 9 Tf
+() Tj T*
+/F1 9 Tf
+(24. References) Tj T*
+/F1 9 Tf
+(--------------) Tj T*
+/F1 9 Tf
+(Android Developers, Jetpack Compose documentation:) Tj T*
+/F1 9 Tf
+(https://developer.android.com/develop/ui/compose) Tj T*
+/F1 9 Tf
+(Android Developers, Navigation Compose:) Tj T*
+/F1 9 Tf
+(https://developer.android.com/develop/ui/compose/navigation) Tj T*
+/F1 9 Tf
+(Android Developers, ViewModel overview:) Tj T*
+/F1 9 Tf
+(https://developer.android.com/topic/libraries/architecture/viewmodel) Tj T*
+/F1 9 Tf
+(Firebase documentation, Android setup: https://firebase.google.com/docs/android/setup) Tj T*
+/F1 9 Tf
+(Firebase documentation, Authentication:) Tj T*
+/F1 9 Tf
+(https://firebase.google.com/docs/auth/android/password-auth) Tj T*
+/F1 9 Tf
+(Firebase documentation, Cloud Firestore: https://firebase.google.com/docs/firestore) Tj T*
+/F1 9 Tf
+(Firebase documentation, Firestore security rules:) Tj T*
+/F1 9 Tf
+(https://firebase.google.com/docs/firestore/security/get-started) Tj T*
+/F1 9 Tf
+() Tj T*
+/F1 9 Tf
+(Appendix: Actual Android screen images were not available; capture Login, Sign-up,) Tj T*
+/F1 9 Tf
+(Dashboard, Customer list, Customer form, and Customer details from a configured emulator.) Tj T*
+ET
+BT /F1 8 Tf 50 28 Td
+(PrintShop Customer Manager  |  Page 6) Tj
+ET
+endstream
+endobj
+xref
+0 17
+0000000000 65535 f 
+0000000045 00000 n 
+0000000094 00000 n 
+0000000184 00000 n 
+0000000254 00000 n 
+0000000322 00000 n 
+0000000458 00000 n 
+0000004434 00000 n 
+0000004570 00000 n 
+0000008606 00000 n 
+0000008743 00000 n 
+0000012368 00000 n 
+0000012506 00000 n 
+0000016385 00000 n 
+0000016523 00000 n 
+0000021149 00000 n 
+0000021287 00000 n 
+trailer
+<< /Size 17 /Root 1 0 R >>
+startxref
+23230
+%%EOF
